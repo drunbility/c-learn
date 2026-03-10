@@ -9,6 +9,7 @@ int getop(char s[]) {
     s[1] = '\0';
 
     i = 0;
+
     if (c == '-') {
         next_c = getch();
         if (!isdigit(next_c) && next_c != '.') {

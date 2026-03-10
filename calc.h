@@ -1,6 +1,9 @@
 #ifndef CALC_H
 #define CALC_H
-#define NUMBER '0'
+#define NUMBER         '0'
+#define VAR_STORE      '$'
+#define LAST_PRINT_VAL 'L'
+
 void push(double);
 double pop(void);
 
